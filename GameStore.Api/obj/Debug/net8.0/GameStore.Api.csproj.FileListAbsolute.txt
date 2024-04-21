@@ -24,3 +24,9 @@ E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\GameStore.Api.pdb
 E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\GameStore.Api.genruntimeconfig.cache
 E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\ref\GameStore.Api.dll
 E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\GameStore.Api.sourcelink.json
+E:\dotnet\GameStoreApp\GameStore.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\dotnet\GameStoreApp\GameStore.Api\bin\Debug\net8.0\MinimalApis.Extensions.dll
+E:\dotnet\GameStoreApp\GameStore.Api\bin\Debug\net8.0\MiniValidation.dll
+E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\GameStore.Api.csproj.AssemblyReference.cache
+E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\GameStore.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\dotnet\GameStoreApp\GameStore.Api\obj\Debug\net8.0\GameStor.5118A84D.Up2Date

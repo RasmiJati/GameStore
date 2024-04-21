@@ -46,11 +46,6 @@ public static class GameEndPoints  //extension class
         // POST /games
         group.MapPost("/", (CreateGameDto newGame) =>
         {
-
-            if(string.IsNullOrEmpty(newGame.Name)){
-                return Results.BadRequest("Name is Required");
-            }
-
             GameDto game = new GameDto(
              games.Count + 1,
              newGame.Name,
@@ -60,7 +55,7 @@ public static class GameEndPoints  //extension class
             );
             games.Add(game);
             return Results.CreatedAtRoute("GetGameEndpointName", new { id = game.Id, game });
-        });
+        }).WithParameterValidation();
 
         // PUT /games/id
         group.MapPut("/{id}", (int id, UpdateGameDto updatedGame) =>

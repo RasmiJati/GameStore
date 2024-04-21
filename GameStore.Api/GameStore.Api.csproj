@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+<!-- MinimalApis.Extensions -> go to nuget.org and and type it then copy command and paste in terminal and download -->
+  <ItemGroup>
+    <PackageReference Include="MinimalApis.Extensions" Version="0.11.0" />
+  </ItemGroup>
+
 </Project>
