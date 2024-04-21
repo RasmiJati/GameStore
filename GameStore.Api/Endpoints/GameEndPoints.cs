@@ -26,8 +26,8 @@ public static class GameEndPoints  //extension class
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
 
-        //group field which define commin things upon all endpoints
-        var group = app.MapGroup("games");
+        // WithParameterValidation in here means validation is applied to all end points
+        var group = app.MapGroup("games").WithParameterValidation();
 
 
         // Defining endpoints
@@ -55,7 +55,7 @@ public static class GameEndPoints  //extension class
             );
             games.Add(game);
             return Results.CreatedAtRoute("GetGameEndpointName", new { id = game.Id, game });
-        }).WithParameterValidation();
+        });
 
         // PUT /games/id
         group.MapPut("/{id}", (int id, UpdateGameDto updatedGame) =>
