@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {}
+    "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {
+    "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "e:\\dotnet\\GameStoreApp\\GameStore.Api\\obj\\",
+        "outputPath": "E:\\dotnet\\GameStoreApp\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.2, )"
