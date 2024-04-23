@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {}
+    "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {
+    "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "E:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "e:\\dotnet\\GameStoreApp\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnet\\GameStoreApp\\GameStore.Api\\obj\\",
+        "outputPath": "e:\\dotnet\\GameStoreApp\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
